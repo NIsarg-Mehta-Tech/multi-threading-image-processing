@@ -1,0 +1,29 @@
+# Ignore Python virtual environments
+venv/
+.env/
+env/
+.envrc/
+*.env
+
+# Conda environment files
+*.conda
+*.yml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled files
+*.pyo
+*.pyc
+*.pyd
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
